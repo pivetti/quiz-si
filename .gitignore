@@ -1,0 +1,24 @@
+# Arquivos gerados e configuracoes locais
+.gradle/
+**/build/
+*.class
+local.properties
+.idea/
+.vscode/
+*.iml
+*.jks
+*.keystore
+*.hprof
+*.log
+.DS_Store
+Thumbs.db
+
+# Arquivos temporarios e pacotes Android gerados
+*.tmp
+*.apk
+*.aab
+
+# Credenciais locais
+.env
+.env.*
+!.env.example

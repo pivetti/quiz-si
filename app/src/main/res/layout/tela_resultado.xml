@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/raiz_tela" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:clipToPadding="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/margem_tela">
+        <TextView style="@style/Texto.Titulo" android:text="@string/titulo_resultado" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="@dimen/espaco_grande" android:padding="24dp" android:background="@drawable/fundo_cartao" android:gravity="center">
+            <TextView android:id="@+id/texto_pontuacao" style="@style/Texto.Titulo" android:textSize="44sp" android:textColor="@color/superficie" android:gravity="center" />
+            <TextView style="@style/Texto.Corpo" android:text="@string/legenda_pontuacao" android:textColor="@color/superficie" android:gravity="center" />
+            <TextView android:id="@+id/texto_percentual" style="@style/Texto.Corpo" android:textColor="@color/verde_claro" android:layout_marginTop="@dimen/espaco_grande" android:gravity="center" android:textStyle="bold" />
+        </LinearLayout>
+        <TextView android:id="@+id/mensagem_resultado" style="@style/Texto.Corpo" android:layout_marginTop="@dimen/espaco_grande" />
+        <Button android:id="@+id/botao_jogar_novamente" style="@style/BotaoQuiz" android:text="@string/jogar_novamente" android:layout_marginTop="@dimen/espaco_grande" />
+        <Button android:id="@+id/botao_inicio" style="@style/BotaoQuiz.Secundario" android:text="@string/voltar_inicio" android:layout_marginTop="12dp" />
+    </LinearLayout>
+</ScrollView>

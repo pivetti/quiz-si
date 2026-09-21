@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/raiz_tela" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:clipToPadding="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/margem_tela">
+        <TextView style="@style/Texto.Corpo" android:text="@string/nome_app" android:textColor="@color/azul_escuro" android:textStyle="bold" android:textSize="20sp" />
+        <TextView style="@style/Texto.Titulo" android:layout_marginTop="@dimen/espaco_extra_grande" android:text="@string/titulo_inicio" />
+        <TextView style="@style/Texto.Corpo" android:layout_marginTop="@dimen/espaco_medio" android:text="@string/descricao_inicio" />
+        <TextView style="@style/Texto.Corpo" android:text="@string/resumo_quiz" android:textStyle="bold" android:layout_marginTop="@dimen/espaco_grande" />
+        <TextView style="@style/Texto.Corpo" android:text="@string/descricao_destaque" android:layout_marginTop="@dimen/espaco_pequeno" />
+        <Button android:id="@+id/botao_iniciar" style="@style/BotaoQuiz" android:text="@string/iniciar" android:layout_marginTop="@dimen/espaco_grande" />
+        <TextView style="@style/Texto.Corpo" android:layout_marginTop="@dimen/espaco_grande" android:text="@string/creditos" android:textSize="12sp" android:gravity="center" />
+    </LinearLayout>
+</ScrollView>

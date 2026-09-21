@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/efeito_toque">
+    <item><selector>
+        <item android:state_enabled="false"><shape><solid android:color="@color/desabilitado" /><corners android:radius="@dimen/raio_canto" /></shape></item>
+        <item><shape><solid android:color="@color/azul_escuro" /><corners android:radius="@dimen/raio_canto" /></shape></item>
+    </selector></item>
+</ripple>

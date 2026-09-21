@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margem_tela">24dp</dimen>
+    <dimen name="espaco_pequeno">8dp</dimen>
+    <dimen name="espaco_medio">16dp</dimen>
+    <dimen name="espaco_grande">24dp</dimen>
+    <dimen name="espaco_extra_grande">32dp</dimen>
+    <dimen name="altura_toque">56dp</dimen>
+    <dimen name="raio_canto">16dp</dimen>
+</resources>

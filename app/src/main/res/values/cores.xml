@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_escuro">#142D4E</color>
+    <color name="verde">#087F5B</color>
+    <color name="verde_escuro">#07543F</color>
+    <color name="verde_claro">#DDF4E9</color>
+    <color name="fundo">#F6F8FB</color>
+    <color name="superficie">#FFFFFF</color>
+    <color name="texto_secundario">#526479</color>
+    <color name="borda">#CDD7E3</color>
+    <color name="erro">#8F2D24</color>
+    <color name="fundo_erro">#FFF0EC</color>
+    <color name="desabilitado">#5D6E82</color>
+    <color name="efeito_toque">#2274C5AA</color>
+</resources>
