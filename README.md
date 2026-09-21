@@ -1,7 +1,7 @@
 # Quiz SI
 
 Aplicativo Android em Java e XML com cinco perguntas, explicações e pontuação.
-Gabriela Fogaça e Henrique Pivetti — Sistemas de Informação, IFPR Palmas.
+Gabriela Fogaça e Henrique Pivetti - Sistemas de Informação, IFPR Palmas.
 
 ## Executar
 
